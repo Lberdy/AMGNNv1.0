@@ -6,7 +6,7 @@ Hi! This is AMGNN, my custom neural network framework built entirely in C++.
 
 Features
 
-     Supports multiple optimization methods:
+     Optimization Methods:
 
         Gradient Descent
 
@@ -14,13 +14,19 @@ Features
 
         Stochastic Gradient Descent
 
-     Two optimizers available:
+     Optimizers:
 
-        AMGNNO (supports various learning rate decay functions)
+        AMGNNO – Supports multiple learning rate decay functions (step, exponential, etc.)
 
         ADAM
 
-     Handles 4 task types:
+     Differentiation:
+
+        Uses interpolational polynomial methods to calculate gradients
+
+        Supports three differentiation orders: 2, 4, and 6
+
+     Task Types Supported:
 
         Regression
 
@@ -30,7 +36,7 @@ Features
 
         Multilabel Classification
 
-     Multithreaded Optimization:
+     Multithreaded Training:
 
         Threading for weights
 
@@ -38,20 +44,20 @@ Features
 
         Threading for stochastic samples
 
-        Configurable thread count
+        Thread usage is fully configurable
 
-        Uses a Thread Pooling system to fit your CPU capabilities
+        Efficient Thread Pooling to adapt to your CPU
 
-     Model Saving & Loading:
+     Model Persistence:
 
-        Easily save and load models — portable and ready for deployment
+        Save and load your models easily — portable and ready for reuse
 
  Limitations (for now)
 
-    No GPU acceleration (yet!). I don’t have a GPU at the moment — but once I get one, I plan to add CUDA/OpenCL support.
+    No GPU acceleration yet — planned for the future once GPU access is available (CUDA/OpenCL support coming soon)
 
  Coming Soon
 
      L-BFGS Optimizer (Quasi-Newton method)
 
-     Full documentation explaining the architecture, usage, and customization
+     Full Documentation covering the framework’s internal structure, setup, and examples
