@@ -4,6 +4,8 @@
 
 Hi! This is AMGNN, my custom neural network framework built entirely in C++.
 
+My Email : guettaraamine2@gmail.com
+
 Features
 
      Optimization Methods:
