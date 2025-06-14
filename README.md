@@ -1,6 +1,6 @@
 # AMGNNv1.0
 
-AMGNN – Amine Guettara Neural Network
+# AMGNN – Amine Guettara Neural Network
 
 Hi! This is AMGNN, my custom neural network framework built entirely in C++.
 
